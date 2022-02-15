@@ -11,12 +11,16 @@ body {
     align-items: center;
 }
 
-canvas {
+.canvas {
     border: solid 3px black;
     width: 500px;
     height: 500px;
-    display: block;
-    background: red;
+    position: relative;
+}
+
+.canvas > * {
+    width: 500px !important;
+    height: 500px !important;
 }
 
 .logo {
