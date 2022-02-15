@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #26f;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    border: solid 3px black;
+    width: 500px;
+    height: 500px;
+    display: block;
+    background: red;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-family: "Amatic SC", cursive;
+    font-size: 3.5rem;
+}
